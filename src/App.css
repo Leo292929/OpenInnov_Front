@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #f7f7f7;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,87 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Applique à la balise body et html une hauteur de 100% */
+html, body {
+  background-color: #ace3cb;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+Header{
+  
+  display: flex;
+  background-color: #31c48d;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+
+/* Footer fixé en bas */
+footer {
+  margin-top: 1000;
+
+  background: #2599C2;
+  color: white;
+  padding: 15px;
+}
+
+img{
+  margin-left: 42%;
+  width: 280px;
+  cursor: auto;
+}
+
+h1{
+  color: white;
+}
+
+
+h2{
+  margin-top: 50px;
+  margin-left: 0px;
+  text-align:center;
+}
+
+p{
+  margin-top: 75px;
+  margin-left: 0px;
+  text-align:center;
+}
+form{
+  margin-top: 75px;
+  margin-left: 0px;
+  text-align:center;
+}
+
+ul{
+  margin-right: 15px;
+  flex: 1;
+  list-style: none;
+  text-align:right;
+
+}
+
+header ul li{
+  text-align:right;
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 18px;
+  font-family:Arial;
+
+}
+ul li{
+  
+  margin-right: 20px;
+  line-height:30px ;
+  text-align:center;
 }
